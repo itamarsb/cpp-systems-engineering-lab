@@ -9,3 +9,29 @@ systems programming, telemetry, and embedded systems.
 The laboratory is intended as a long-term learning environment rather than a
 fixed course. New experiments are added as concepts emerge from open-source
 contributions, systems engineering studies, and personal projects.
+
+
+## Structure
+
+```markdown
+
+cpp-systems-engineering-lab/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── labs/
+│   ├── 01-development-environment/
+│   ├── 02-first-native-application/
+│   ├── 03-cpp-build-process/
+│   ├── 04-c-and-cpp-interoperability/
+│   └── 05-command-line-arguments/
+│
+├── examples/
+│
+├── notes/
+│
+└── resources/
+
+```
