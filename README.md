@@ -1,5 +1,5 @@
 # cpp-systems-engineering-lab
-HHands-on experiments with Modern C++, C interoperability, systems programming, native applications, telemetry, and embedded systems.
+Hands-on experiments with Modern C++, C interoperability, systems programming, native applications, telemetry, and embedded systems.
 
 
 This repository documents a progressive collection of hands-on experiments
