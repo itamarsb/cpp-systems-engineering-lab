@@ -125,4 +125,11 @@ Structure:
 
 Build an application that accepts arguments:
 
+```bash
+system-info --cpu
+system-info --memory
+system-info --version
+```
+
+
 
