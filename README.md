@@ -69,3 +69,36 @@ The value of this lab will be present in the complete tutorial on the environmen
 
 ---
 
+
+## Lab 02 — From Source Code to Native Binary
+
+Show the entire workflow:
+
+```text
+source code
+    ↓
+preprocessing
+    ↓
+compilation
+    ↓
+assembly
+    ↓
+linking
+    ↓
+native executable
+
+```
+
+This lab would explain:
+
+- `.cpp` file;
+- object file;
+- linker;
+- static and dynamic libraries;
+- symbols;
+- native executable;
+- the difference between compilation and interpretation.
+
+
+---
+
