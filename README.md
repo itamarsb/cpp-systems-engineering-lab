@@ -64,3 +64,8 @@ int main()
 }
 ```
 
+The value of this lab will be present in the complete tutorial on the environment, compilation, and execution, and not just in the code.
+
+
+---
+
