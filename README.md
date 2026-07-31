@@ -35,3 +35,32 @@ cpp-systems-engineering-lab/
 └── resources/
 
 ```
+
+---
+
+## Lab 01 — C++ Development Environment
+
+Environment setup:
+
+- GCC;
+- Clang;
+- MSVC;
+- CMake;
+- Ninja;
+- VS Code;
+- C/C++ extensions;
+- compilation on Windows and subsequently on Linux;
+- verification of installed versions.
+
+Result:
+
+```c++
+#include <iostream>
+
+int main()
+{
+    std::cout << "C++ Systems Engineering Lab\n";
+    return 0;
+}
+```
+
