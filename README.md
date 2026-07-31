@@ -130,6 +130,14 @@ system-info --cpu
 system-info --memory
 system-info --version
 ```
+Concepts:
 
-
+- argc;
+- argv;
+- argument parsing;
+- return codes;
+- error messages;
+- standard output;
+- error output;
+- command-line interfaces.
 
