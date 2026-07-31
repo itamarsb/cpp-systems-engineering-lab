@@ -121,3 +121,8 @@ Structure:
 ---
 
 
+## Lab 05 — Command-Line Application
+
+Build an application that accepts arguments:
+
+
