@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="docs/images/CPP_Systems_Overview_13_24_47.png">
+</p>
+
 # cpp-systems-engineering-lab
 Hands-on experiments with Modern C++, C interoperability, systems programming, native applications, telemetry, and embedded systems.
 
