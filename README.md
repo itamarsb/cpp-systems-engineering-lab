@@ -1,6 +1,7 @@
-<p align="center">
-    <img src="docs/images/CPP_Systems_Overview_13_24_47.png">
-</p>
+<img
+  src="docs/images/CPP_Systems_Overview_13_24_47.png"
+  alt="C/C++ Systems Engineering Lab overview"
+  width="100%">
 
 
 
