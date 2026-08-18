@@ -1,1 +1,118 @@
-
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 25,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "BUILD_TESTING": "ON",
+        "ENABLE_WARNINGS_AS_ERRORS": "ON"
+      }
+    },
+    {
+      "name": "gcc-debug",
+      "displayName": "GCC Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "ENABLE_SANITIZERS": "OFF"
+      }
+    },
+    {
+      "name": "clang-debug",
+      "displayName": "Clang Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "ENABLE_SANITIZERS": "OFF"
+      }
+    },
+    {
+      "name": "gcc-release",
+      "displayName": "GCC Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "ENABLE_WARNINGS_AS_ERRORS": "OFF",
+        "ENABLE_SANITIZERS": "OFF"
+      }
+    },
+    {
+      "name": "clang-asan",
+      "displayName": "Clang ASan and UBSan",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "ENABLE_SANITIZERS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "gcc-debug",
+      "configurePreset": "gcc-debug"
+    },
+    {
+      "name": "clang-debug",
+      "configurePreset": "clang-debug"
+    },
+    {
+      "name": "gcc-release",
+      "configurePreset": "gcc-release"
+    },
+    {
+      "name": "clang-asan",
+      "configurePreset": "clang-asan"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "gcc-debug",
+      "configurePreset": "gcc-debug",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "clang-debug",
+      "configurePreset": "clang-debug",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "gcc-release",
+      "configurePreset": "gcc-release",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "clang-asan",
+      "configurePreset": "clang-asan",
+      "output": {
+        "outputOnFailure": true
+      },
+      "environment": {
+        "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1",
+        "UBSAN_OPTIONS": "print_stacktrace=1:halt_on_error=1"
+      }
+    }
+  ]
+}
