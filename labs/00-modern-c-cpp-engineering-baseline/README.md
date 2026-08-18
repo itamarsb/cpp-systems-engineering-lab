@@ -53,6 +53,14 @@ The additional directories will be created when implementation begins.
 * demonstrate one debugger inspection;
 * run static analysis and document material findings.
 
+## Toolchain and quality policy
+
+Minimum tool versions, Linux and Windows commands, build presets, warning rules, C/C++ interoperability requirements, test cases, sanitizer evidence, and the initial CI scope are documented in:
+
+- [Toolchain and Quality Policy](docs/toolchain-and-quality.md)
+
+The CI workflow and executable build presets will be enabled together with the first compilable implementation.
+
 ## Acceptance criteria
 
 * [ ] A clean checkout builds using documented commands.
