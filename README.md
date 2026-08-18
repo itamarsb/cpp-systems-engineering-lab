@@ -1,5 +1,5 @@
 <img
-  src="docs/images/CPP_Systems_Overview_ 20_17_06.png"
+  src="docs/images/CPP_Systems_Overview_20_27_17.png"
   alt="C/C++ Systems Engineering Lab overview"
   width="100%">
 
