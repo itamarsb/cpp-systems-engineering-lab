@@ -23,7 +23,7 @@ The exact versions used to validate the completed lab must be recorded in the La
 Example:
 
 
-![LAB00TQ](docs/images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
+![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
 
 
 
