@@ -23,7 +23,7 @@ The exact versions used to validate the completed lab must be recorded in the La
 Example:
 
 
-![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_22.jpg)
+![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
 
 
 
@@ -62,7 +62,7 @@ The required compiler executables must be available through `PATH`.
 Example:
 
 
-![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_21.jpg)
+![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_22.jpg)
 
 
 ## Build presets
