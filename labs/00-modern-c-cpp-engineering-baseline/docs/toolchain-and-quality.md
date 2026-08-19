@@ -59,6 +59,12 @@ gdb --version
 
 The required compiler executables must be available through `PATH`.
 
+Example:
+
+
+![LAB00TQ](images/LAB00_CPP_Clipboard_08-18-2026_21.jpg)
+
+
 ## Build presets
 
 The initial project defines the following presets:
