@@ -20,6 +20,13 @@ Newer compatible versions may be used.
 
 The exact versions used to validate the completed lab must be recorded in the Lab 00 README.
 
+Example:
+
+
+![LAB00TQ](labs/00-modern-c-cpp-engineering-baseline/docs/images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
+
+
+
 ## Verify installed tools
 
 ### Linux
