@@ -146,7 +146,7 @@ cmake --build --preset clang-asan
 ctest --preset clang-asan
 ```
 
-Compiler and sanitizer availability can vary according to the Windows toolchain distribution. Any platform-specific limitation must be recorded in the Lab 00 README.
+Compiler and sanitizer availability can vary according to the Windows toolchain distribution.
 
 ## Warning policy
 
