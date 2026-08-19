@@ -23,7 +23,7 @@ The exact versions used to validate the completed lab must be recorded in the La
 Example:
 
 
-![LAB00TQ](labs/00-modern-c-cpp-engineering-baseline/docs/images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
+![LAB00TQ](00-modern-c-cpp-engineering-baseline/docs/images/LAB00_CPP_Clipboard_08-18-2026_20.jpg)
 
 
 
